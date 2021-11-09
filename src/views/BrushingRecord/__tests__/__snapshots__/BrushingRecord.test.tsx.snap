@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 15,
+      "paddingTop": 50,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "paddingBottom": 25,
+      }
+    }
+    testID="Header.Text"
+  >
+    Edit Record
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "grey",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 50,
+        "justifyContent": "center",
+        "opacity": 1,
+        "paddingLeft": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+        }
+      }
+    >
+      November 9, 2021 2:36 AM
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontSize": 18,
+        "paddingBottom": 10,
+        "paddingTop": 20,
+      }
+    }
+  >
+    Duration:
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TextInput
+        keyboardType="number-pad"
+        onChangeText={[Function]}
+        placeholder="Minutes"
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "grey",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "height": 30,
+            "marginRight": 5,
+            "minWidth": 75,
+            "paddingLeft": 5,
+          }
+        }
+        value="2"
+      />
+      <Text>
+        Minutes
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TextInput
+        keyboardType="number-pad"
+        onChangeText={[Function]}
+        placeholder="Seconds"
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "grey",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "height": 30,
+            "marginRight": 5,
+            "minWidth": 75,
+            "paddingLeft": 5,
+          }
+        }
+        value="34"
+      />
+      <Text>
+        Seconds
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "tomato",
+          "borderRadius": 5,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+    >
+      <Text>
+        Cancel
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#20a9ff",
+          "borderRadius": 5,
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 150,
+        }
+      }
+      testID="SaveRecord.Button"
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Save
+      </Text>
+    </View>
+  </View>
+</View>
+`;
